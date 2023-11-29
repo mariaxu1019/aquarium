@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+  <script src="libraries/toxiclibs.js"></script>
+  <script src="libraries/toxichelper.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+  <script defer language="javascript" type="text/javascript" src="handTracking/detection.js"></script>
+  <script defer language="javascript" type="text/javascript" src="handTracking/handLandmarkTesting.js"></script>
+  <script defer language="javascript" type="text/javascript" src="handTracking/HandParticle.js"></script>
+
+</head>
+
+<body>
+  <main>
+    <audio id="background-music" autoplay loop>
+      <source src="mindfulness-relaxation-amp-meditation-music-22174.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </main>
+  <script src="sketch.js"></script>
+  <script src="Creatures/Star.js"></script>
+  <script src="Creatures/ParticleStrings.js"></script>
+  <script src="Creatures/BranchAndTree.js"></script>
+  <script src="Creatures/Dna.js"></script>
+  <script src="Creatures/ParticleNetwork.js"></script>
+  <script src="Creatures/Butterfly.js"></script>
+
+  <video id="video" autoplay muted playsinline></video>
+
+
+  <div class="overlay"></div>
+</body>
+
+</html>
