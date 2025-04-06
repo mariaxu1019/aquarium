@@ -7,8 +7,8 @@ This project is a creative exploration of **gesture-based interaction**, where c
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mariaxu1019/art173_final.git
-cd art173_final
+git clone https://github.com/mariaxu1019/aquarium.git
+cd aquarium
 ```
 
 ### 2. Install dependencies & start project
